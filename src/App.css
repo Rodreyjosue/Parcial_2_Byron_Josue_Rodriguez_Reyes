@@ -1,38 +1,72 @@
-.App {
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
   text-align: center;
+  color: #333;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Para incluir padding en el width */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Estilo para el botón */
+button {
+  background-color: #28a745; /* Color verde para agregar */
   color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Transición suave para el hover */
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+  background-color: #218838; /* Color más oscuro en hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilo para el botón de eliminar */
+button[style*="background-color: red"] {
+  background-color: red; /* Color rojo para eliminar */
+}
+
+button[style*="background-color: red"]:hover {
+  background-color: darkred; /* Color más oscuro en hover */
+}
+
+/* Listado de productos */
+ul {
+  list-style-type: none; /* Quitar puntos de la lista */
+  padding: 0; /* Quitar padding */
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* Línea divisoria entre productos */
+}
+
+li:last-child {
+  border-bottom: none; /* Sin línea divisoria para el último producto */
+}
+
+/* Estilos para mensajes de error */
+p {
+  color: red; /* Mensajes de error en rojo */
+  text-align: center;
 }
