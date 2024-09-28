@@ -1,0 +1,59 @@
+# Parcial_2_Byron_Josue_Rodriguez_Reyes
+# Sistema de Inventario de Productos
+
+Este proyecto es una aplicación Full Stack para gestionar un sistema de inventario de productos. Permite a los usuarios agregar, ver, editar y eliminar productos, así como cambiar el estado de disponibilidad de los mismos.
+
+## Tecnologías Utilizadas
+
+- **Backend**: Java 17, Spring Framework
+- **Frontend**: React
+- **Base de Datos**: H2 (en memoria)
+
+
+## Requisitos Previos
+
+Asegúrate de tener instaladas las siguientes herramientas en tu máquina:
+
+- [Java 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)
+- [Maven](https://maven.apache.org/download.cgi)
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/get-npm) (que se instala junto a Node.js)
+
+## Instrucciones para Ejecutar el Backend
+
+1. **Clonar el repositorio:**
+   
+   git clone https://github.com/Rodreyjosue/Parcial_2_Byron_Josue_Rodriguez_Reyes.git
+   
+3. Navegar al directorio del backend:
+
+  cd inventario/backend
+
+3. Compilar y ejecutar el proyecto:
+   
+  mvn spring-boot:run
+  
+4. El backend se ejecutará en el puerto 8080 por defecto.
+
+## Instrucciones para Ejecutar el Frontend
+1. Navegar al directorio del frontend:
+
+  cd ../frontend
+
+2. Instalar las dependencias:
+
+  npm install
+
+3. Ejecutar la aplicación:
+   
+  npm start
+
+4. El frontend se abrirá automáticamente en tu navegador en http://localhost:3000.
+
+##Uso de la Aplicación
+**Agregar Producto**: Completa el formulario y presiona el botón "Agregar Ítem".
+**Editar Producto**: Haz clic en "Editar" junto al producto que deseas modificar y realiza los cambios.
+**Eliminar Producto**: Haz clic en "Eliminar" para borrar el producto de la lista.
+
+##Contacto
+Para cualquier duda o consulta, puedes contactarme en bjrodriguez@grupotecun.com
