@@ -26,7 +26,7 @@ Asegúrate de tener instaladas las siguientes herramientas en tu máquina:
    
    git clone https://github.com/Rodreyjosue/Parcial_2_Byron_Josue_Rodriguez_Reyes.git
    
-3. Navegar al directorio del backend:
+2. Navegar al directorio del backend:
 
   cd inventario/backend
 
@@ -108,5 +108,5 @@ Bienvenido al Sistema de Inventario de Productos. Esta aplicación te permite ge
 
 ![image](https://github.com/user-attachments/assets/2c22fa48-f88d-4bd0-87af-79fe679dfaa7)
 
-##Contacto
+Contacto
 Para cualquier duda o consulta, puedes contactarme en bjrodriguez@grupotecun.com
